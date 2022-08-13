@@ -113,7 +113,7 @@ body {
 
 #hero {
     background-image: url("img/herobg.webp");
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: top 5% right 0;
@@ -154,4 +154,88 @@ body {
   }
   
 .button1:hover {background-color: #e7e7e7;}
-  
+
+/* feature sections*/
+
+.trans-logo {
+    width: 100px;
+    height: 100px;
+   
+}
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+    border: 1px solid rgba(115, 129, 142, 0.358);
+    border-radius: 4px;
+    margin: 15px 0px; 
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.257);
+
+}
+
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: antiquewhite;
+    background-color: salmon;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+    color: rgb(178, 167, 151);
+    background-color: rgb(252, 205, 77);
+}
+
+#produtc1 {
+    text-align: center;
+}
+
+#produtc1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 2px solid #e7e7e7;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.03);
+    margin: 15px 0px;
+    transition: 0.2s ease;
+
+}
+
+#produtc1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(99, 97, 97, 0.12);
+
+}
+#produtc1 .pro img {
+
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+#produtc1 .pro .description {
+    text-align: start;
+    padding: 10px 0;
+
+}
+#produtc1 .pro .description span {
+
+    color: rgb(216, 220, 218);
+    font-size: 12px;
+
+}
